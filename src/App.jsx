@@ -14,7 +14,7 @@ function App() {
   const [bgSelected, setBgSelected] = useState(photos[getRandomNumber(photos.length)]) 
 
   const objStyle = {
-    backgroundImage: `url(/public/fondo${bgSelected}.png)`
+    backgroundImage: `url(/fondo${bgSelected}.png)`
   }
 
   return (
